@@ -8,3 +8,16 @@ crear un repositorio?
 
  para que los archivos a los que git da seguimiento los versione, usamos
  git commit -m 'mensaje'
+
+ para renombrar la rama maestra a main
+ git branch -m main
+
+ para agregar un origen remoto 
+ git remote add origin direccion-del-logo
+
+ para saber a que direccion remota esta conectado nuestro repo
+ git remote -v 
+
+para subir el ultimo commit a la nube (repositorio remoto conectado)
+ git push -u origin main
+ 
